@@ -7,14 +7,17 @@
     "eslint:recommended",
     "plugin:node/recommended",
     "plugin:promise/recommended",
-    "eslint-config-prettier"
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    "promise"
   ],
   "parserOptions": {
     "ecmaVersion": 2018
   },
   "rules": {
     "rules": {
-      "prettier/prettier": ["error", { "singleQuote": true }]
+      "prettier/prettier": "error"
     }
   }
 }
