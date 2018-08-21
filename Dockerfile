@@ -13,4 +13,4 @@ COPY . .
 
 EXPOSE 8080
 # Avoid extra process and swallowed errors from invoking with npm start.
-CMD ["node","app.js"]
+CMD ["node","bin/serve.js"]
