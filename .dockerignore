@@ -1,2 +1,3 @@
+# Prevent local modules and logs from overwriting installed modules and logs.
 node_modules
 npm-debug.log
