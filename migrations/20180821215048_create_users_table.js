@@ -7,7 +7,6 @@ exports.up = knex =>
       .notNullable()
       .unique();
     table.string('password').notNullable();
-    table.string('remember_token').nullable();
     table.timestamps();
   });
 
